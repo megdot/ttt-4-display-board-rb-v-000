@@ -24,4 +24,3 @@ board[position.to_i] = token
 
 
 display_board(board)
-
