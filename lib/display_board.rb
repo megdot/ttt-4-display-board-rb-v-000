@@ -2,10 +2,10 @@
 # out the current state.
 board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
- 
+
 # Would Print:
-#    |   |   
+#    |   |
 # -----------
-#    |   |   
+#    |   |
 # -----------
 #    |   |   
