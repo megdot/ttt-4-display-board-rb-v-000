@@ -10,6 +10,8 @@ end #Building a machine.
 
 puts "Welcome to Tic Tac Toe"
 
+puts "Turn 1 Happened, X went in the middle"
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board
-display_board
-display_board
+
+puts ""
