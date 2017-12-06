@@ -25,11 +25,3 @@ board[position.to_i] = token
 
 display_board(board)
 
-
-puts "Turn 2"
-board = [" ", " ", " ", " ", "X", " ", " ", " ", "O"]
-display_board(board)
-
-puts "Turn 3"
-board = [" ", " ", "X", " ", "X", " ", " ", " ", "O"]
-display_board(board)
