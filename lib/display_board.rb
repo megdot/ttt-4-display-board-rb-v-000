@@ -10,14 +10,21 @@ end #Building a machine.
 puts "Welcome to Tic Tac Toe"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 display_board(board)
 # puts board[0]
 # my_variable = "SHH DON'T TELL"
 puts "Turn 1: Where would you like to go? 0-8"
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board)
 
 position = gets.strip
+token = "X"
+board[position.to_i] = token
+# position might = "0"
+
+
+display_board(board)
+
 
 puts "Turn 2"
 board = [" ", " ", " ", " ", "X", " ", " ", " ", "O"]
