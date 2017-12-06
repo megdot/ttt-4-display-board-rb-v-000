@@ -5,5 +5,3 @@ def display_board(the_board) # what's made in a method stays in a method
   puts "-----------"
   puts " #{the_board[6]} | #{the_board[7]} | #{the_board[8]} "
 end #Building a machine.
-
-
