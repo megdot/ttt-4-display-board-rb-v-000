@@ -15,7 +15,7 @@ display_board(board)
 # puts board[0]
 # my_variable = "SHH DON'T TELL"
 puts "Turn 1: Where would you like to go? 0-8"
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 position = gets.strip
 token = "X"
