@@ -6,21 +6,4 @@ def display_board(the_board) # what's made in a method stays in a method
   puts " #{the_board[6]} | #{the_board[7]} | #{the_board[8]} "
 end #Building a machine.
 
-#Main Universe
-puts "Welcome to Tic Tac Toe"
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-display_board(board)
-# puts board[0]
-# my_variable = "SHH DON'T TELL"
-puts "Turn 1: Where would you like to go? 0-8"
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-position = gets.strip
-token = "X"
-board[position.to_i] = token
-# position might = "0"
-
-
-display_board(board)
