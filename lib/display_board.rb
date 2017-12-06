@@ -7,11 +7,20 @@ def display_board(the_board) # what's made in a method stays in a method
 end #Building a machine.
 
 #Main Universe
-# puts "Welcome to Tic Tac Toe"
+puts "Welcome to Tic Tac Toe"
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
+# puts board[0]
+# my_variable = "SHH DON'T TELL"
+puts "Turn 1"
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-puts board[0]
-my_variable = "SHH DON'T TELL"
-display_board(my_variable)
+display_board(board)
 
-#display_board
+puts "Turn 2"
+board = [" ", " ", " ", " ", "X", " ", " ", " ", "O"]
+display_board(board)
+
+puts "Turn 3"
+board = [" ", " ", "X", " ", "X", " ", " ", " ", "O"]
+display_board(board)
